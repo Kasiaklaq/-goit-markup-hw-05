@@ -816,8 +816,30 @@ header {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.x-button:hover,
+.x-button:focus {
+    background-color: #404bbf;
+    border: none;
+}
+
 .close {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close:hover,
+.close:focus {
+    fill: #ffffff;
+}
+
+.label {
+    font-weight: 400;
+    line-height: 1.17;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 4px;
 }
 
 .leave-your-contacts {
@@ -856,6 +878,10 @@ header {
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.imput-style:focus {
+    border-color: #4D5AE5;
 }
 
 .form-icon {
