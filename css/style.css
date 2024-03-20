@@ -990,3 +990,12 @@ header {
     border: none;
     fill: #f4f4fd;
 }
+
+.comment-area {
+    margin-bottom: 16px;
+}
+
+.is-open {
+    visibility: visible;
+    opacity: 1;
+}
