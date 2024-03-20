@@ -976,3 +976,7 @@ header {
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.comment-section:focus, .modal-check:hover {
+    border-color: #4D5AE5;
+}
