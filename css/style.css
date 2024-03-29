@@ -1290,6 +1290,7 @@ header {
                 flex-direction: row;
             }
     
+
             .ul-list-class {
                 gap: 40px;
                 padding: 24px 0;
@@ -1421,3 +1422,5 @@ header {
                     url(./images/people-office1x2deskopt(1).jpg);
             }
         }
+
+        
